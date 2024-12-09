@@ -1,0 +1,162 @@
+body {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  min-height: 100vh;
+  background-image: url(../assets/img/mhwilds.png);
+  background-size: 100%;
+  background-color: black !important;
+  padding-bottom: 153px;
+}
+
+.active {
+  color: whitesmoke !important;
+}
+
+@font-face {
+  font-family: "MHWILDS_Beta";
+  src: url(../assets/fonts/MHWilds_BETA-AthemWulf.ttf);
+}
+
+@font-face {
+  font-family: "MHWILDS_Custom";
+  src: url(../assets/fonts/MHWilds-AthemWulf.ttf);
+}
+header nav {
+  margin: auto;
+  font-family: MHWILDS_Custom;
+}
+
+header .nav-link {
+  padding: 20px !important;
+  background-color: rgba(0, 0, 0, 0.5) !important;
+  margin: 20px;
+  font-style: initial;
+  font-size: x-large !important;
+  background-image: url(../assets/img/circle-side.5b0a139a.png) !important;
+  background-size: auto;
+  background-repeat: no-repeat !important;
+  background-position: 0%;
+  border-radius: 5px;
+  color: gold;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.background /* tous les enfants div  */ {
+  background-image: url(../assets/img/background.jpg);
+  background-size: 100%;
+  border-radius: 20px;
+}
+h1,
+h2,
+h3,
+h4 {
+  font-family: MHWILDS_Custom;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: gold !important;
+  text-align: center;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+.background p {
+  color: goldenrod;
+}
+
+.accordion-button {
+  background-color: gold !important;
+}
+
+.accordion-button:focus {
+  box-shadow: none;
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: goldenrod !important;
+}
+table {
+  text-align: center;
+  margin: 20px !important;
+}
+
+/* .new {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  margin-left: auto;
+  margin-right: auto;
+} */
+
+.new:nth-child(even) {
+  background-image: url(../assets/img/fondorH.png);
+}
+
+.new:nth-child(odd) {
+  background-image: url(../assets/img/fondargentH.png);
+}
+
+main {
+  margin-bottom: 20px;
+}
+.menu_vertical {
+  /* float: left; */
+  min-width: 300px;
+  height: 760px;
+  margin-left: 20px;
+  margin-right: 20px;
+  text-align: center;
+  background-image: url("../assets/img/background2.png");
+  border-radius: 5px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.menu_vertical ul {
+  list-style: none;
+  background-image: none;
+}
+.menu_vertical a {
+  font-family: MHWILDS_Custom;
+
+  color: gold;
+}
+
+.menu_vertical li {
+  margin: 5px;
+  background-color: rgba(0, 0, 0, 0.5);
+  font-size: x-large;
+  border: 2px white solid;
+  margin-right: 30px;
+}
+
+#armes .card {
+  margin: 10px;
+  width: 250px !important;
+  margin-left: auto;
+  margin-right: auto;
+}
+.card-group {
+  align-items: center;
+  justify-content: center;
+}
+.imgMonstre a {
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+.mlr-auto {
+  margin-left: auto !important;
+  margin-right: auto !important;
+}

@@ -1,0 +1,366 @@
+@font-face {
+  font-family: "MHWILDS_Beta";
+  src: url(../assets/fonts/MHWilds_BETA-AthemWulf.ttf);
+}
+
+@font-face {
+  font-family: "MHWILDS_Custom";
+  src: url(../assets/fonts/MHWilds-AthemWulf.ttf);
+}
+html {
+  background-color: black;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  min-height: 100vh;
+  background-image: url(../assets/img/mhwilds.png);
+  background-size: 100%;
+  background-color: black !important;
+}
+
+main {
+  color: gold;
+  text-align: center;
+  margin: 20px;
+  min-height: 70vh;
+}
+
+header {
+  background-color: goldenrod;
+  display: flex;
+}
+.logosite img {
+  height: 170px;
+  width: 240px;
+}
+/*  */
+header nav {
+  margin: auto;
+  font-family: MHWILDS_Custom;
+}
+
+header nav ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+}
+
+header nav ul li {
+  margin: 20px;
+}
+
+header ul li a:link,
+header ul li a:visited {
+  color: goldenrod;
+  text-decoration: none;
+}
+
+header ul li a {
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+
+  font-style: initial;
+  font-size: x-large;
+  background-image: url(../assets/img/circle-side.5b0a139a.png);
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: 0%;
+  border-radius: 5px;
+}
+
+.active,
+.active:link,
+.active:visited {
+  color: whitesmoke !important;
+}
+
+header nav a:focus,
+footer nav a:focus,
+#mentionleg:focus,
+header nav a:hover,
+footer nav a:hover,
+#mentionleg:hover {
+  box-shadow: rgba(255, 255, 255, 0.4) -5px 5px,
+    rgba(255, 255, 255, 0.3) -10px 10px, rgba(255, 255, 255, 0.2) -15px 15px,
+    rgba(255, 255, 255, 0.1) -20px 20px, rgba(255, 255, 255, 0.05) -25px 25px;
+}
+
+footer {
+  height: 7em;
+  background-color: goldenrod;
+  position: absolute;
+  left: 0;
+  right: 0; /*Pour mettre le footer en bas de la page   */
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer nav ul li {
+  margin: 2px;
+  display: inline;
+}
+
+footer nav {
+  display: flex;
+  font-family: MHWILDS_Custom;
+  justify-content: center;
+}
+
+footer div {
+  display: flex;
+}
+footer div a img {
+  height: 20px;
+}
+
+footer ul li a:link,
+footer ul li a:visited {
+  color: gold;
+  text-decoration: none;
+}
+footer ul li a,
+#mentionleg {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+footer div {
+  display: flex;
+  justify-content: space-between;
+}
+
+footer div span {
+  display: inherit;
+}
+
+footer div a {
+  margin-left: 10px;
+  margin-top: 15px;
+  font-family: MHWILDS_Custom;
+}
+
+.contenu {
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+}
+.contenu > div/* tous les enfants div  */ {
+  background-image: url(../assets/img/background.jpg);
+  background-size: 100%;
+  border-radius: 20px;
+}
+
+.menu_vertical {
+  float: left;
+  min-width: 15%;
+  min-height: 40%;
+  margin-left: 20px;
+  margin-right: 20px;
+  text-align: center;
+  background-image: url("../assets/img/background2.png");
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.menu_vertical ul {
+  list-style: none;
+  background-image: none;
+}
+
+.menu_vertical li {
+  margin: 5px;
+  background-color: rgba(0, 0, 0, 0.5);
+  font-size: x-large;
+  border: 2px white solid;
+  margin-right: 30px;
+}
+
+.menu_vertical a,
+.menu_vertical a:link,
+.menu_vertical a:visited {
+  color: wheat;
+  text-decoration: none;
+}
+
+#mentionleg {
+  height: 17.6px;
+  color: gold;
+}
+
+#mentionleg:link,
+#mentionleg:visited {
+  color: none;
+  text-decoration: none;
+}
+
+#presentation {
+  margin-top: 20px;
+  padding: 30px;
+  width: 100%;
+  /* background-image: url(/img/fondargent.png); */
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#mhws img {
+  max-width: 100%;
+  height: auto;
+}
+
+.glossaire {
+  background-color: goldenrod;
+}
+
+#presentation p a:visited,
+#presentation p a:link {
+  color: gold;
+  font-size: xx-large;
+}
+
+#mhws {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+#mhws table {
+  border: solid wheat 2px;
+  border-collapse: collapse;
+  margin: 20px;
+  text-align: center;
+  width: 100%;
+}
+#mhws td,
+#mhws tr {
+  border: solid wheat 2px;
+}
+
+.news {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 30px;
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#presentation div,
+.new {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+.new:nth-child(even) {
+  background-image: url(../assets/img/fondorH.png);
+}
+
+.new:nth-child(odd) {
+  background-image: url(../assets/img/fondargentH.png);
+}
+
+.new div {
+  background-image: url(../assets/img/fondtitre2.png);
+
+  background-repeat: no-repeat;
+}
+
+h1,
+h2,
+h3 {
+  font-family: MHWILDS_Custom;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+iframe {
+  max-width: 100%;
+  height: auto;
+  width: 560px;
+  height: 315px;
+
+  border: none;
+}
+
+#armes {
+  height: 80vh;
+  margin-bottom: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.arme img {
+  width: 100px;
+  height: auto;
+}
+
+.arme {
+  margin-top: 5px;
+  margin: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+  max-width: 140px;
+}
+
+.arme a {
+  font-size: x-large;
+}
+.arme a:link,
+.arme a:visited {
+  color: gold;
+  text-decoration: none;
+}
+
+.arme:hover,
+.arme a:hover,
+.arme:focus,
+.arme a:focus .menu_vertical a:focus,
+.menu_vertical a:hover {
+  background-color: rgba(70, 66, 66, 0.495);
+  color: orange !important;
+}
+
+.weapon {
+  min-width: 80%;
+  min-height: 80vh;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  display: grid;
+
+  grid-template-columns: repeat(2, 1fr);
+  padding: 20px;
+  grid-template-rows: repeat(2, 1fr);
+}
+
+.armeIMG {
+  grid-column: 1;
+  grid-row: 1 / 5;
+}
+
+.armeIMG img {
+  width: 100%;
+}
+
+.weapon p {
+  text-align: justify;
+}
+
+.loading {
+  color: aliceblue;
+}

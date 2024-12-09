@@ -1,0 +1,315 @@
+{
+  "news": [
+    {
+      "id": "1",
+      "nom": "Trailer d'annonce",
+      "lien": "https://www.youtube-nocookie.com/embed/UQ41RwMg2qI?si=bo748QN0Og6qfX50"
+    },
+    {
+      "id": "2",
+      "nom": "Trailer 1",
+      "lien": "https://www.youtube-nocookie.com/embed/w5m_c_Xut4M?si=GJO-VtjWMAokinMy"
+    },
+    {
+      "id": "3",
+      "nom": "Trailer 2",
+      "lien": "https://www.youtube-nocookie.com/embed/tPR--B7v7jk?si=qgFJO4nMzXB5rCaV"
+    },
+    {
+      "id": "4",
+      "nom": "Trailer 3",
+      "lien": "https://www.youtube-nocookie.com/embed/x3J2Gb0C0GU?si=CrbAnn4EsRCR0OsN"
+    },
+    {
+      "id": "5",
+      "nom": "Trailer 4",
+      "lien": "https://www.youtube-nocookie.com/embed/F9lxIxfD2xI?si=Ql2eQk7rYf7QkCzM"
+    },
+    {
+      "id": "6",
+      "nom": "Trailer 5",
+      "lien": "https://www.youtube-nocookie.com/embed/q3gOWxFiNvk?si=AaH3nwZS-yxPz9qZ"
+    }
+  ],
+  "weapons": [
+    {
+      "id": "1",
+      "nom": "Grande épée",
+      "lienIcon": "1-GS-wilds.png",
+      "altLogo": "Logo de la grande épée",
+      "altIMG": "Personnage avec une grande épée",
+      "lienIMG": "01_gs.png",
+      "description": "Une arme lourde dont les attaques et les mouvements sont lents, mais qui inflige en contrepartie d'importants dégâts. <br>Idéale pour les stratégies consistant à frapper puis à fuir, la grande épée est une arme très polyvalente.",
+      "video": "https://www.youtube-nocookie.com/embed/t2h3Uxj7nNg?si=0eW_iSauayftwhRH"
+    },
+    {
+      "id": "2",
+      "nom": "épée longue",
+      "lienIcon": "2-LS-Wilds.png",
+      "lienIMG": "02_ls.png",
+      "description": "Une arme qui fait la part belle aux mouvements rapides et aux combos.<br> Si vous êtes observateur et avez le bon timing, vous pourrez contrer les attaques des monstres.<br> Si vous parvenez à toucher la cible avec certaines attaques, vous pourrez remplir votre jauge spirituelle.<br> Lorsque la jauge spirituelle devient rouge, certaines de vos attaques gagnent en puissance.",
+      "video": "https://www.youtube-nocookie.com/embed/RmP9QFeGbl4?si=kpkEDEVVDLoGUGLX",
+      "altIMG": "logo de l'Épée longue",
+      "altLogo": "Personnage avec une épée longue"
+    },
+    {
+      "id": "3",
+      "nom": "épée et bouclier",
+      "lienIcon": "3-SNS-Wilds.png",
+      "lienIMG": "03_sns.png",
+      "description": "Une arme qui se distingue par ses attaques rapides et une grande mobilité. <br>Vous pouvez utiliser le bouclier pour vous protéger, mais aussi pour attaquer.<br>Vous pouvez utiliser certains objets même lorsque l'arme est sortie.",
+      "video": "https://www.youtube-nocookie.com/embed/HaAhlupvKzU?si=oCSZuqOifjK2-RRp",
+      "altIMG": "logo de l'Épée & bouclier",
+      "altLogo": "Personnage avec une épée et un bouclier"
+    },
+    {
+      "id": "4",
+      "nom": "Lames doubles",
+      "lienIcon": "4-DB-Wilds.png",
+      "lienIMG": "04_db.png",
+      "description": "Une arme conçue pour les attaques rapides.<br>Passez en mode démon pour booster les dégâts infligés par vos attaques.<br>En mode archidémon, certaines attaques seront encore plus puissantes.",
+      "video": "https://www.youtube.com/embed/FvX367QFb9o?si=apQ9uwSepm61jvPS",
+      "altIMG": "logo des lames doubles",
+      "altLogo": "Personnage avec des lames doubles"
+    },
+    {
+      "id": "5",
+      "nom": "Marteau",
+      "lienIcon": "5-H-Wilds.png",
+      "lienIMG": "05_hm.png",
+      "description": "Une arme contondante qui allie puissance destructrice et mobilité.<br>Chargez vos attaques pour les rendre plus puissantes.<br>Il est également possible d'assommer les monstres en enchaînant les coups sur la tête.",
+      "video": "https://www.youtube-nocookie.com/embed/1SVhAsgES1k?si=w_ewsVlPSb4cvnBw",
+      "altIMG": "logo du marteau",
+      "altLogo": "Personnage avec un marteau"
+    },
+    {
+      "id": "6",
+      "nom": "Corne de chasse",
+      "lienIcon": "6-HH-Wilds.png",
+      "lienIMG": "06_hh.png",
+      "description": "Une arme contondante avec laquelle vous pouvez jouer des mélodies qui vous donnent divers bonus.<br>Placez des bulles d'écho pour créer des effets dans une zone.<br>Vos alliés bénéficieront aussi des effets des mélodies.",
+      "video": "https://www.youtube-nocookie.com/embed/2gXz5-608Ns?si=f4dsZ6O7BA3e--1R",
+      "altIMG": "logo de corne de chasse",
+      "altLogo": "Personnage avec une corne de chasse"
+    },
+    {
+      "id": "7",
+      "nom": "Lance",
+      "lienIcon": "7-L-Wilds.png",
+      "lienIMG": "07_lc.png",
+      "description": "La lance est une arme qui offre une excellente défense.<br>Ses attaques d'estoc sont rapides et ne vous exposent pas.<br>Utilisez au mieux les diverses capacités défensives qu'elle offre.",
+      "video": "https://www.youtube-nocookie.com/embed/9cd2dIa1DKk?si=DDlZnD48m91Am4RT",
+      "altIMG": "logo de la lance",
+      "altLogo": "Personnage avec une lance"
+    },
+    {
+      "id": "8",
+      "nom": "Lancecanon",
+      "lienIcon": "8-GL-Wilds.png",
+      "lienIMG": "08_gl.png",
+      "description": "Une arme qui a une bonne allonge et permet de tirer des obus.<br>Utilisez les pas de côté pour ajuster votre position avec précision.<br>Bloquez des attaques particulièrement puissantes.<br>Utilisez une grande variété de puissantes attaques à base d'obus.",
+      "video": "https://www.youtube-nocookie.com/embed/Azn6r5wTd48?si=PQa7ikzcWeg2NurN",
+      "altIMG": "logo de la lancecanon",
+      "altLogo": "Personnage avec une lancecanon"
+    },
+    {
+      "id": "9",
+      "nom": "Morpho-hache",
+      "lienIcon": "9-SA-Wilds.png",
+      "lienIMG": "09_sa.png",
+      "description": "Une arme polyvalente qui propose deux modes différents.<br>Le mode hache vous offre une excellente allonge.<br>Le mode épée se caractérise par des attaques rapides.",
+      "video": "https://www.youtube-nocookie.com/embed/toi52e8Lf0U?si=Kjz--zdBkqKpRxHz",
+      "altIMG": "logo de la morpho-hache",
+      "altLogo": "Personnage avec une morpho-hache"
+    },
+    {
+      "id": "10",
+      "nom": "Volto-hache",
+      "lienIcon": "10-CB-Wilds.png",
+      "lienIMG": "10_cb.png",
+      "description": "Une arme polyvalente qui peut prendre deux formes différentes.<br>Le mode épée permet des déplacements rapides et précis.<br>Faites d'importants dégâts en mode hache.<br>Chargez vos fioles en mode épée pour renforcer le mode hache.<br>Les fioles chargées permettent différents types de renforcement.",
+      "video": "https://www.youtube-nocookie.com/embed/QrSKxNHCliA?si=A6nDsVTPImHARV6t",
+      "altIMG": "logo de la volto-hache",
+      "altLogo": "Personnage avec une volto-hache"
+    },
+    {
+      "id": "11",
+      "nom": "Insectoglaive",
+      "lienIcon": "11-IG-Wilds.png",
+      "lienIMG": "11_ig.png",
+      "description": "Une arme qui s'utilise en contrôlant une créature appelée <strong>kinsecte</strong>.<br>Vous pouvez vous renforcer grâce aux extraits récoltés.<br>Lancez-vous dans les airs pour effectuer des attaques sautées.",
+      "video": "https://www.youtube-nocookie.com/embed/8wV7lPVW8q4?si=xYOyDEdwOdebCLiP",
+      "altIMG": "logo de l'insectoglaive",
+      "altLogo": "Personnage avec un insectoglaive"
+    },
+    {
+      "id": "12",
+      "nom": "Arc",
+      "lienIcon": "14-B-Wilds.png",
+      "lienIMG": "14_bow.png",
+      "description": "Une arme de moyenne portée qui utilise une grande variété d'attaques à base de flèches.<br>Chargez vos flèches pour augmenter les dégâts. L'arc permet de rester très mobile.<br>En touchant un monstre avec un marqueur, les flèches suivantes se dirigeront automatiquement dessus.<br>Le marqueur explosera après un certain temps, ou après un certain nombre de dégâts.",
+      "video": "https://www.youtube-nocookie.com/embed/6D0x3KLl8jA?si=zWNZzQiK3YmgpW34",
+      "altIMG": "logo de l'arc",
+      "altLogo": "Personnage avec un arc"
+    },
+    {
+      "id": "13",
+      "nom": "Fusarbalète lourd",
+      "lienIcon": "13-HBG-Wilds.png",
+      "lienIMG": "13_hbg.png",
+      "description": "Une arme à longue portée, qui permet de tirer en restant à distance de la cible.<br>En plus de la fonction de garde automatique, il est possible de bloquer les attaques manuellement.<br>En mode combustion, consommez de l'énergie pour tirer des munitions spéciales.<br>L'énergie se régénère au fil du temps et lorsque vous touchez la cible.",
+      "video": "https://www.youtube-nocookie.com/embed/ZcjGwUo8vjE?si=IGx2WfJcRmwlvdcl",
+      "altIMG": "logo du fusarbalète lourd",
+      "altLogo": "Personnage avec un fusarbalète lourd"
+    },
+    {
+      "id": "14",
+      "nom": "Fusarbalète léger",
+      "lienIcon": "12-LBG-Wilds.png",
+      "lienIMG": "12_lbg.png",
+      "description": "Une arme de moyenne portée, qui peut tirer une grande variété de munitions.<br>Elle permet une grande mobilité, et se caractérise par ses attaques rapides et ses esquives.<br>Utilisez l'énergie de tir rapide pour effectuer des tirs successifs.<br>L'énergie se régénère au fil du temps et lorsque vous touchez la cible.",
+      "video": "https://www.youtube-nocookie.com/embed/laJFEKB0gMA?si=oWVBS17IsjEoolCi",
+      "altIMG": "logo du fusarbalète léger",
+      "altLogo": "Personnage avec un fusarbalète léger"
+    }
+  ],
+  "monsters": [
+    {
+      "id": "1",
+      "nom": "Chatacabra",
+      "habitat": "Plaines venteuses",
+      "lienHabitat": "ecosystem1-1.png",
+      "altHabitat": "Paysage de la plaine venteuse",
+      "altIMG": "Image du Chatacabra",
+      "lienIMG": "chatacabra.png",
+      "description": "Une espèce d'amphibiens géants qui utilisent leur salive gluante pour armer de pierres leurs membres supérieurs afin de renforcer leurs attaques. ",
+      "thumbnail": "t-chatacabra.png"
+    },
+    {
+      "id": "2",
+      "nom": "Doshaguma",
+      "habitat": "Plaines venteuses",
+      "lienHabitat": "ecosystem1-1.png",
+      "altHabitat": "Paysage de la plaine venteuse",
+      "altIMG": "image du Doshaguma",
+      "lienIMG": "doshaguma.png",
+      "description": "Coriaces et territoriales, les bêtes à crocs sont des créatures agressives qui peuplent des habitats très divers. On les a parfois vues se réunir en grandes meutes.  ",
+      "thumbnail": "t-doshaguma.png"
+    },
+    {
+      "id": "3",
+      "nom": "Quematrice",
+      "habitat": "Plaines venteuses",
+      "lienHabitat": "ecosystem1-1.png",
+      "altHabitat": "Paysage de la plaine venteuse",
+      "altIMG": " image du Quematrice",
+      "lienIMG": "quematrice.png",
+      "description": "Des wyvernes de terre à la queue disproportionnée. Elles répandent une substance inflammable, qu'elles enflamment en raclant le sol avec leur queue. On les voit souvent se disputant des charognes avec d'autres carnivores plus petits.",
+      "thumbnail": "t-quematrice.png"
+    },
+    {
+      "id": "4",
+      "nom": "Balahara",
+      "habitat": "Plaines venteuses",
+      "lienHabitat": "ecosystem1-1.png",
+      "altHabitat": "Paysage de la plaine venteuse",
+      "altIMG": "image du balahara",
+      "lienIMG": "balahara.png",
+      "description": "Les léviathans du désert utilisent leur corps serpentin agile pour prendre au piège les imprudents dans le sable mouvant. ",
+      "thumbnail": "t-balahara.png"
+    },
+    {
+      "id": "5",
+      "nom": "Rey Dau",
+      "habitat": "Plaines venteuses",
+      "lienHabitat": "ecosystem1-2.png",
+      "altHabitat": "Paysage de la plaine venteuse avec de l'orage",
+      "altIMG": "Image du Rey Dau",
+      "lienIMG": "rey-dau.png",
+      "description": "Une Wyverne volante qui règne sur les Plaines venteuses en tant que prédateur ultime. Elle s'est adaptée aux éclairs accompagnant la Tempête de sable, et c'est pendant cette tempête qu'on l'a le plus souvent aperçue. Sa capacité à décharger de l'électricité dans ses puissantes attaques représente une menace même pour les chasseurs les plus expérimentés.",
+      "thumbnail": "t-rey-dau.png"
+    },
+    {
+      "id": "6",
+      "nom": "Lala Barina",
+      "habitat": "Forêt écarlate",
+      "lienHabitat": "ecosystem2-1.png",
+      "altHabitat": "paysage de la forêt écarlate",
+      "altIMG": "image du Lala Barina",
+      "lienIMG": "lala-barina.png",
+      "description": "Un Temnoceran qui habite la Forêt écarlate. Son abdomen peut se déployer et s'ouvrir comme une rose en fleur.",
+      "thumbnail": "t-lala-barina.png"
+    },
+    {
+      "id": "7",
+      "nom": "Uth Duna",
+      "habitat": "Forêt écarlate",
+      "lienHabitat": "ecosystem2-2.png",
+      "altHabitat": "paysage de la forêt écarlate avec de l'eau rouge",
+      "altIMG": "image du Uth Duna",
+      "lienIMG": "uth-duna.png",
+      "description": "Un Leviathan qui règne sur la Forêt écarlate en tant que prédateur ultime. Il s'est adapté aux environnements humides et on l'aperçoit le plus souvent lors du Déluge. Il utilise l'humidité environnante et ses propres fluides corporels pour créer un voile protecteur autour de lui.",
+      "thumbnail": "t-uth-duna.png"
+    },
+    {
+      "id": "8",
+      "nom": "Ajarakan",
+      "habitat": "Bassin pétrolier",
+      "lienHabitat": "ecosystem3-1.png",
+      "altHabitat": "Image du bassin pétrolier",
+      "altIMG": "image de l'Ajarakan",
+      "lienIMG": "ajarakan.png",
+      "description": "Un bête à crocs qui se distingue par les protrusions qui couvrent son dos, semblables à des flammes. Une bête aux crocs acérés qui frappe ses griffes sur sa carapace imprégnée de métal pour la chauffer au rouge. La plus grande menace de la région s'éveille durant la Coulée de feu. ",
+      "thumbnail": "t-ajarakan.png"
+    },
+    {
+      "id": "9",
+      "nom": "Rompopolo",
+      "habitat": "Bassin pétrolier",
+      "lienHabitat": "ecosystem3-1.png",
+      "altHabitat": "Image du bassin pétrolier",
+      "altIMG": "image du Rompopolo",
+      "lienIMG": "rompopolo.png",
+      "description": "Une wyverne de terre qui habite les zones de profonde vase pétrolifère. Une wyverne de terre qui libère un gaz toxique de la pointe de sa langue, et emploie sa queue pour injecter dans le sol un gaz qui rejaillit en de putrides explosions.",
+      "thumbnail": "t-rompopolo.png"
+    },
+    {
+      "id": "10",
+      "nom": "La Flamme noire",
+      "habitat": "Bassin pétrolier",
+      "lienHabitat": "ecosystem3-2.png",
+      "altHabitat": "Image du bassin pétrolier en feu",
+      "altIMG": "image du monstre surnommé la  Flamme Noire dans le bassin pétrolier en feu",
+      "lienIMG": "flamme-noire.png",
+      "description": "Ce monstre mystérieux est connu parmi les habitants d'Azuz sous le nom de Flamme noire. ",
+      "thumbnail": "t-flamme-noire.png"
+    },
+    {
+      "id": "11",
+      "nom": "Arkveld",
+      "habitat": "???",
+      "lienHabitat": "",
+      "altHabitat": "",
+      "altIMG": "image du spectre blanc aussi connu sous le nom d'Arkveld",
+      "lienIMG": "arkveld.png",
+      "description": "Un monstre connu au sein de la commission comme le Spectre Blanc, décrit comme ayant d'étranges excroissances en forme de chaînes qui s'étendent à partir de ses ailes. Une espèce que l'on croyait depuis longtemps éteinte, et dont l'écologie demeure nimbée de mystère. ",
+      "thumbnail": "t-arkveld.png"
+    }
+  ],
+  "events": [
+    {
+      "id": "9f39",
+      "nom": "test",
+      "date": "2024-12-19",
+      "type": "compétition en équipe",
+      "description": "jhlhlmlllbhk"
+    },
+    {
+      "id": "0e2d",
+      "nom": "test",
+      "date": "2025-06-26",
+      "type": "compétition en équipe",
+      "description": "teest"
+    }
+  ]
+}
