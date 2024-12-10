@@ -1,7 +1,8 @@
-import { useEffect, useState } from "react";
+import { act, useEffect, useState } from "react";
 import jaquetteMHWds from "../assets/img/MHWilds_normal.png";
 import { Accordion, Table } from "react-bootstrap";
 import logolicence from "../assets/img/logoseriemh.png";
+import { Link } from "react-router-dom";
 
 function Home() {
   const [news, setNews] = useState([]);
@@ -46,7 +47,7 @@ function Home() {
               et fabriquer des armes et armures, afin de rendre notre chasseur
               plus fort et plus robuste.
             </p>
-            <Accordion defaultActiveKey="0" className="glossaire">
+            <Accordion className="glossaire">
               <Accordion.Item eventKey="0">
                 <Accordion.Header>Définitions</Accordion.Header>
                 <Accordion.Body>
@@ -69,7 +70,9 @@ function Home() {
               Site officiel des 20 ans de la licence retraçant tous les jeux
               jusqu'à Wilds <br />
               <a href="https://www.monsterhunter.com/20th/en/memorial/">
-                <span></span>Memorial<span></span>
+                <button className="btn btn-warning mt-3 p-5" type="submit">
+                  Memorial
+                </button>
               </a>
             </p>
           </div>
@@ -136,20 +139,15 @@ function Home() {
 
         <div className="container background p-5 m-3 ">
           <h2 className="m-5">Actualités</h2>
-          <div className="d-flex flex-column-reverse">
+          <ul className=" list-group d-flex flex-column-reverse">
             {news.map((actualite) => (
-              <div key={actualite.id}>
-                <h3>{actualite.nom}</h3>
-                <div className="m-3  ratio ratio-16x9">
-                  <iframe
-                    src={actualite.lien}
-                    title="YouTube video player"
-                    allowFullScreen
-                  ></iframe>
-                </div>
-              </div>
+              <li className="list-group-item m-3 bg-dark" key={actualite.id}>
+                <Link to={`/news/${actualite.id}`}>
+                  <h3>{actualite.nom}</h3>
+                </Link>
+              </li>
             ))}
-          </div>
+          </ul>
         </div>
       </div>
     </main>

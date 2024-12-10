@@ -15,7 +15,7 @@ function Events() {
       });
   }, [loadEvents]);
 
-  const deleteBook = (id) => {
+  const deleteEvent = (id) => {
     console.log("delete");
     fetch(`http://localhost:3000/events/${id}`, {
       method: "DELETE",
@@ -47,7 +47,7 @@ function Events() {
                   {" "}
                   <button
                     className="btn btn-outline-danger"
-                    onClick={() => deleteBook(evenement.id)}
+                    onClick={() => deleteEvent(evenement.id)}
                   >
                     supprimer
                   </button>

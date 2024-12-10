@@ -13,6 +13,8 @@ import EditEvents from "./components/EditEvents";
 import Contact from "./components/Contact";
 import Envoye from "./components/Envoye";
 import NotFound from "./components/NotFound";
+import Commentaires from "./components/Commentaires";
+import Actualite from "./components/Actualite";
 
 function App() {
   return (
@@ -30,6 +32,7 @@ function App() {
           <Route path="/events/edit/:id" element={<EditEvents />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/sent" element={<Envoye />} />
+          <Route path="/news/:id" element={<Actualite />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
         <Footer />
